@@ -25,10 +25,10 @@ export class AppConfigService {
         .subscribe((localAppConfig: any) => {
           console.log('>>> localAppConfig:', localAppConfig);
           this.appConfig = { ...localAppConfig };
-          this.appConfig.serverBaseUrl = import.meta.env.NG_APP_SERVER_BASE_URL;
+          this.appConfig.serverBaseUrl = import.meta.env.NG_APP_API_SERVER_BASE_URL;
           this.appConfig.clientBaseUrl = import.meta.env.NG_APP_CLIENT_BASE_URL;
           this.appConfig.environment = import.meta.env.NG_APP_ENV;
-          this.appConfig.serverPort = import.meta.env.NG_APP_SERVER_PORT;
+          this.appConfig.serverPort = import.meta.env.NG_APP_API_SERVER_PORT;
           this.appConfig.clientPort = import.meta.env.NG_APP_CLIENT_PORT;
 
           resolved(this.appConfig);
