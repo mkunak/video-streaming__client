@@ -1,0 +1,9 @@
+<div>
+  <button (click)="handleMakeScreenshot()">Make screenshot</button>
+</div>
+<div class="screenshots">
+  <div class="screenshot" *ngFor="let screenshot of screenshots">
+    <img [src]="getVideoItemScreenshotsSource(screenshot)" alt="{{selectedItem.description}}">
+    <button (click)="handleDeleteScreenshot(screenshot)">Delete</button>
+  </div>
+</div>

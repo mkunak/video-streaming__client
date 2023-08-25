@@ -1,0 +1,12 @@
+.container {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  background-color: #231f2e;
+}
+
+.posts-page {
+  padding-top: 4vh;
+  height: 86vh;
+}

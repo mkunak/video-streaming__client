@@ -1,0 +1,11 @@
+<h4 class="title">{{selectedItem.name}}</h4>
+<video
+  id="videoPlayer"
+  controls
+  muted="false"
+  (timeupdate)="setCurrentTime($event)"
+>
+  <source [src]="getVideoItemSource()" type="video/{{selectedItem.dotExtension?.replace('.', '')}}" />
+</video>
+<app-video-item-description [descriptionText]="selectedItem.description!"></app-video-item-description>
+<app-video-item-screenshots class="app-video-item-screenshots" [selectedItem]="selectedItem" [timemark]="currentTime"></app-video-item-screenshots>

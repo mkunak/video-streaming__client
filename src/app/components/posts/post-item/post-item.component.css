@@ -1,0 +1,13 @@
+.post-item {
+  width: 100%;
+  display: block;
+}
+
+.post-item img {
+  width: 100%;
+}
+
+.post-item span {
+  display: block;
+  text-align: center;
+}

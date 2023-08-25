@@ -1,0 +1,8 @@
+.post-items-wrapper {
+  display: flex;
+}
+
+.app-post-item {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}

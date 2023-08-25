@@ -1,0 +1,19 @@
+.title {
+  padding-bottom: 4vh;
+  text-align: center;
+  text-transform: capitalize;
+  color: #969696;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+}
+
+video {
+  width: 100%;
+}
+
+.app-video-item-screenshots {
+  display: block;
+  min-height: 10vh;
+  background-color: #1e1a28;
+}

@@ -1,0 +1,12 @@
+.container {
+  margin-left: 4vw;
+  margin-right: 4vw;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  background-color: #231f2e;
+}
+
+.video-item-page {
+  padding-top: 4vh;
+  min-height: 92vh;
+}

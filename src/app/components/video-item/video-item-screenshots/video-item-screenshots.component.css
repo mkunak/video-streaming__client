@@ -1,0 +1,15 @@
+.screenshots {
+  padding: 2vh 4vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.screenshot {
+  margin: 1vh 1vw;
+  border: 2px solid #444;
+  max-width: 29%;
+}
+
+.screenshot img {
+  width: 100%;
+}
