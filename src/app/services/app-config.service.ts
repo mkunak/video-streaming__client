@@ -20,7 +20,7 @@ export class AppConfigService {
   constructor(private http: HttpClient) {}
 
   async loadAppConfig() {
-    return new Promise((resolved, rejected) => {
+    return new Promise((resolved, _) => {
       this.http.get('/assets/config/app-config.json')
         .subscribe((localAppConfig: any) => {
           console.log('>>> localAppConfig:', localAppConfig);
